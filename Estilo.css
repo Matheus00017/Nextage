@@ -1,0 +1,42 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+    background: 
+    radial-gradient(ellipse at 50% 100%, rgba(120, 150, 200, 0.55), transparent 60%),
+    linear-gradient(180deg, #0b1530 0%, #1d3a6e 45%, #4a6fa5 100%);
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+}
+
+.img-Login {
+    width: 60px;
+    height: 60px;
+    margin-top: 50px;
+    position: fixed;
+    right: 150px;
+}
+
+.Carrinho {
+    width: 60px;
+    height: 60px;
+    margin-top: 50px;
+    position: fixed;
+    right: 40px;
+}
+
+.img-Login:hover,
+.Carrinho:hover {
+    cursor: pointer;
+    padding: 1px;
+    background-color: 0.30s ease, opacity 0.25s ease, transform 0.30s ease;
+    opacity: 0.6;        
+    transform: translateY(-2px);
+}
+
+
